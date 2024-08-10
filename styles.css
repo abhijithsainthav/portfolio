@@ -132,6 +132,10 @@ header nav ul li a:hover {
     transition: transform 0.3s ease;
 }
 
+.portfolio-item a {
+    display: block; /* Ensure the entire block is clickable */
+}
+
 .portfolio-item img {
     width: 100%;
     height: auto;
@@ -154,7 +158,7 @@ header nav ul li a:hover {
     justify-content: center;
     flex-direction: column;
     padding: 20px;
-    text-align: center;
+    box-sizing: border-box;
 }
 
 .portfolio-item:hover .overlay {
@@ -163,6 +167,18 @@ header nav ul li a:hover {
 
 .portfolio-item:hover {
     transform: translateY(-10px);
+}
+
+/* Description Styling */
+.portfolio-item .overlay h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em; /* Adjust as needed */
+}
+
+.portfolio-item .overlay .description {
+    font-size: 0.8em; /* Reduce the size of the description by 50% */
+    margin: 0 15px; /* Ensure even spacing from both sides */
+    text-align: center;
 }
 
 /* Contact Section */
