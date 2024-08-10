@@ -38,7 +38,7 @@ header {
 }
 
 .social-media img {
-    width: 6px; /* Adjust size as needed */
+    width: 24px; /* Adjust size as needed */
     height: auto;
     transition: opacity 0.3s ease;
 }
