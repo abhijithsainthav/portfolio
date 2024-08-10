@@ -181,6 +181,23 @@ header nav ul li a:hover {
     text-align: center;
 }
 
+/* YouTube Icon Styling */
+.youtube-icon {
+    margin-top: 15px;
+}
+
+.youtube-icon img {
+    width: 24px; /* Adjust size as needed */
+    height: auto;
+    display: inline-block;
+    transition: opacity 0.3s ease;
+}
+
+.youtube-icon:hover img {
+    opacity: 0.8;
+}
+
+
 /* Contact Section */
 #contact {
     background: #007BFF;
