@@ -255,7 +255,7 @@ header nav ul li a:hover {
 
 /* Ensure there's no overlap with the next section */
 #contact {
-    padding-top: 20px;
+    padding-top: 5px;
     clear: both;
 }
 
