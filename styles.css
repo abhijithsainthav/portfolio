@@ -218,21 +218,43 @@ header nav ul li a:hover {
 .youtube-icon:hover img {
     opacity: 0.8;
 }
+/* Ensure sections do not overlap */
+#portfolio {
+    margin-bottom: 40px; /* Space between Portfolio and Show More section */
+}
 /* Show More Section */
 #show-more {
-    background: #f7f7f7; /* Light background color to differentiate it */
+    background: #f7f7f7; /* Light background color for the section */
     padding: 20px 0; /* Space above and below the button */
     text-align: center; /* Center align the button */
+}
+
+#show-more .container {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the button horizontally */
 }
 
 #show-more .button {
     padding: 15px 30px; /* Adjust padding for a larger button */
     font-size: 1.2em; /* Larger font size for visibility */
+    background: #007BFF; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Remove underline from the button text */
+    border-radius: 5px; /* Rounded corners for the button */
+    transition: background 0.3s ease; /* Smooth background color transition */
+}
+
+#show-more .button:hover {
+    background: #0056b3; /* Darker background on hover */
 }
 
 /* Ensure sections do not overlap */
 #portfolio {
     margin-bottom: 40px; /* Space between Portfolio and Show More section */
+}
+
+#achievements {
+    margin-top: 40px; /* Space between Show More and Achievements sections */
 }
 
 #achievements {
