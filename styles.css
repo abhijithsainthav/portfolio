@@ -218,6 +218,27 @@ header nav ul li a:hover {
 .youtube-icon:hover img {
     opacity: 0.8;
 }
+/* Show More Section */
+#show-more {
+    background: #f7f7f7; /* Light background color to differentiate it */
+    padding: 20px 0; /* Space above and below the button */
+    text-align: center; /* Center align the button */
+}
+
+#show-more .button {
+    padding: 15px 30px; /* Adjust padding for a larger button */
+    font-size: 1.2em; /* Larger font size for visibility */
+}
+
+/* Ensure sections do not overlap */
+#portfolio {
+    margin-bottom: 40px; /* Space between Portfolio and Show More section */
+}
+
+#achievements {
+    margin-top: 40px; /* Space between Show More and Achievements sections */
+}
+
 /* Achievements Section */
 #achievements {
     padding: 20px 0 60px 0; /* Adjusted the top padding */
