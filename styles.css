@@ -228,6 +228,7 @@ header nav ul li a:hover {
 
 #achievements h2 {
     font-size: 2em;
+    text-align: center; /* Ensures the heading text is centered */
     margin-bottom: 20px;
     text-align: center;
     color: #333;
