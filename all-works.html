@@ -3,29 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio - All Works</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Main CSS file -->
+    <link rel="stylesheet" href="all-works.css"> <!-- Specific CSS file for All Works -->
 </head>
 <body>
-    <!-- Header Section -->
     <header>
-        <div class="container">
-            <div class="logo">Your Logo</div>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+        <!-- Your header content here -->
     </header>
 
-    <!-- Portfolio Section -->
-    <section id="portfolio">
+    <section id="portfolio" class="all-works-portfolio">
         <div class="container">
             <h2>Portfolio</h2>
             <div class="portfolio-grid">
+                <!-- Example Portfolio Items -->
                 <div class="portfolio-item">
                     <a href="https://www.youtube.com/watch?v=Gacy9px-aMI" target="_blank">
                         <img src="memyself.jpg" alt="Me Myself & I">
@@ -63,38 +54,29 @@
                     </div>
                 </div>
                 <div class="portfolio-item">
-                    <a href="#">
+                    <a href="https://www.youtube.com/watch?v=WzRMmk_qCbI&t=2s" target="_blank">
                         <img src="siso.png" alt="Siso Shampoo">
                     </a>
                     <div class="overlay">
                         <h3>Siso Shampoo</h3>
                         <p class="description">Wrote the script for this advertisement.</p>
-                        <!-- Remove the YouTube icon if not needed for this item -->
-                    </div>
-                </div>
-                <!-- Add more portfolio items here -->
-                <div class="portfolio-item">
-                    <a href="https://www.youtube.com/watch?v=example" target="_blank">
-                        <img src="example.jpg" alt="Example Work">
-                    </a>
-                    <div class="overlay">
-                        <h3>Example Work</h3>
-                        <p class="description">Description of Example Work.</p>
-                        <a href="https://www.youtube.com/watch?v=example" target="_blank" class="youtube-icon">
+                        <a href="https://www.youtube.com/watch?v=WzRMmk_qCbI&t=2s" target="_blank" class="youtube-icon">
                             <img src="youtube-icon-white.png" alt="YouTube">
                         </a>
                     </div>
                 </div>
-                <!-- Add as many items as needed -->
+                <!-- Add more portfolio items as needed -->
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <section id="show-more">
+        <a href="all-works.html" class="button">Show More</a>
+    </section>
+
     <footer>
-        <div class="container">
-            <p>&copy; 2024 Your Name. All rights reserved.</p>
-        </div>
+        <!-- Your footer content here -->
     </footer>
 </body>
 </html>
+
