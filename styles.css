@@ -225,7 +225,7 @@ header nav ul li a:hover {
 /* Show More Section */
 #show-more {
     background: #f7f7f7; /* Light background color for the section */
-    padding: 20px 0; /* Space above and below the button */
+    padding: 0px 0; /* Space above and below the button */
     text-align: center; /* Center align the button */
 }
 
@@ -235,7 +235,7 @@ header nav ul li a:hover {
 }
 
 #show-more .button {
-    padding: 15px 30px; /* Adjust padding for a larger button */
+    padding: 0px 30px; /* Adjust padding for a larger button */
     font-size: 1.2em; /* Larger font size for visibility */
     background: #007BFF; /* Button background color */
     color: #fff; /* Button text color */
@@ -437,25 +437,6 @@ footer p {
     height: 24px;
 }
 
-/* Show More Button */
-#show-more {
-    padding: 20px 0;
-    text-align: center;
-}
-
-#show-more .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #007BFF;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s ease;
-}
-
-#show-more .button:hover {
-    background: #0056b3;
-}
 
 /* Responsive Design */
 @media (max-width: 768px) {
