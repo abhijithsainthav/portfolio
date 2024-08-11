@@ -223,6 +223,8 @@ header nav ul li a:hover {
     padding: 60px 0;
     text-align: center;
     background-color: #f7f7f7;
+    min-height: 300px; /* Ensures enough space */
+    margin-bottom: 60px; /* Adds space between achievements and contact section */
 }
 
 #achievements h2 {
@@ -248,6 +250,16 @@ header nav ul li a:hover {
 
 .achievement-logo img.active {
     opacity: 1;
+}
+
+/* Contact Section */
+#contact {
+    background: #007BFF;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+    clear: both; /* Ensures that the contact section starts below the achievements section */
+    margin-top: 60px; /* Adds space above the contact section */
 }
 
 
