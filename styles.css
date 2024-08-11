@@ -362,3 +362,94 @@ footer p {
     margin: 0;
     font-size: 1em;
 }
+/* all-works.css */
+
+/* Portfolio Section */
+.all-works-portfolio {
+    padding: 60px 0;
+    background: #f7f7f7;
+}
+
+.all-works-portfolio h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.all-works-portfolio .portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.all-works-portfolio .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.all-works-portfolio .portfolio-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    transform: scale(0.7); /* Image is smaller */
+}
+
+.all-works-portfolio .portfolio-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.all-works-portfolio .portfolio-item:hover .overlay {
+    opacity: 1;
+}
+
+.all-works-portfolio .portfolio-item:hover {
+    transform: translateY(-10px);
+}
+
+.all-works-portfolio .overlay .youtube-icon {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.all-works-portfolio .overlay .youtube-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Show More Button */
+#show-more {
+    padding: 20px 0;
+    text-align: center;
+}
+
+#show-more .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+#show-more .button:hover {
+    background: #0056b3;
+}
