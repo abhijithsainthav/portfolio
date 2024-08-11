@@ -362,23 +362,24 @@ footer p {
     margin: 0;
     font-size: 1em;
 }
+
 /* all-works.css */
 
 /* Portfolio Section */
 .all-works-portfolio {
-    padding: 60px 0;
+    padding: 20px 0; /* Reduced padding on top and bottom */
     background: #f7f7f7;
 }
 
 .all-works-portfolio h2 {
     font-size: 2em;
-    margin-bottom: 40px;
+    margin: 20px 0; /* Reduced margin above and below the heading */
     text-align: center;
 }
 
 .all-works-portfolio .portfolio-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
 }
 
@@ -388,9 +389,9 @@ footer p {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
-    width: 100%; /* Make item full width in grid */
-    max-width: 40vw; /* Restrict to 40% of viewport width on larger screens */
-    margin: 0 auto; /* Center the item */
+    width: 100%;
+    max-width: 40vw;
+    margin: 0 auto;
 }
 
 .all-works-portfolio .portfolio-item img {
@@ -459,6 +460,6 @@ footer p {
 /* Responsive Design */
 @media (max-width: 768px) {
     .all-works-portfolio .portfolio-item {
-        max-width: 90vw; /* Increase width on smaller screens */
+        max-width: 90vw;
     }
 }
