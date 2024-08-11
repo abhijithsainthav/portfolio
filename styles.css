@@ -230,6 +230,9 @@ header nav ul li a:hover {
 #achievements h2 {
     font-size: 2em;
     margin-bottom: 40px;
+    text-align: center; /* Ensures the heading text is centered */
+    width: 100%; /* Ensures the heading spans the full width of the container */
+    margin: 0 auto; /* Centers the heading horizontally */
 }
 
 .achievement-logo {
