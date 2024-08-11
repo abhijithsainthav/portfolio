@@ -228,7 +228,7 @@ header nav ul li a:hover {
 
 #achievements h2 {
     font-size: 2em;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     text-align: center;
     color: #333;
 }
@@ -252,7 +252,7 @@ header nav ul li a:hover {
 
 /* Ensure there's no overlap with the next section */
 #contact {
-    padding-top: 60px;
+    padding-top: 20px;
     clear: both;
 }
 
