@@ -225,7 +225,7 @@ header nav ul li a:hover {
 /* Show More Section */
 #show-more {
     background: #f7f7f7; /* Light background color for the section */
-    padding: 0px 0; /* Space above and below the button */
+    padding: -20px -20px; /* Space above and below the button */
     text-align: center; /* Center align the button */
 }
 
